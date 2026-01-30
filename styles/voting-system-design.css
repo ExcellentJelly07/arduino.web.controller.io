@@ -1,0 +1,188 @@
+body {
+  padding: 20px;
+  font-size: 24px; 
+  background-color: rgb(0, 0, 0);
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 0px;
+  font-weight: 500;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+h4 {
+  color:#ff0033 ;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 15px;
+}
+
+.buttonAccept {
+  background-color: #0077FF;
+}
+
+.buttonSubmit {
+  background-color: #0077FF;
+  position: absolute;
+  right:    50px;
+  bottom:   50px;
+}
+
+input {
+  font-size: 16px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  color: #eee;
+  background-color: #333;
+  border: #333;
+  padding: 2%;
+}
+
+.voteBox {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: #1C1C1E;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  position:relative;
+  animation:animateRight 0.4s;
+}
+
+.loginBox {
+  width: 300px;
+  height: 280px;
+  border-radius: 25px;
+  margin-top: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: #1C1C1E;
+  color: white;
+  text-align: center;
+  position:relative;
+  animation:animateRight 0.4s;
+}
+
+.selectBoxContainers {
+  display: flex;
+}
+
+.selectBox {
+  width: 300px;
+  height: 260px;
+  border-radius: 25px;
+  background-color: #1C1C1E;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  position:relative;
+  animation:animateRight 0.4s;
+}
+
+.radioBox {
+  width: 220px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #333; 
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.radioTitle {
+  float: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.radioButton {
+  float: right;
+  width: 16px;
+  height: 16px;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+
+.submittedBox {
+  text-align: center;
+  position:relative;
+  margin-top: 20px;
+}
+
+@keyframes animateRight
+{
+  from
+  {
+    right:-300px;
+    opacity:0;
+  } 
+  
+  to
+  {
+    right:0;
+    opacity:1;
+  }
+}
+
+@keyframes animateFadeIn
+{
+  from
+  {
+    opacity:0;
+  } 
+  
+  to
+  {
+    opacity:1;
+  }
+}

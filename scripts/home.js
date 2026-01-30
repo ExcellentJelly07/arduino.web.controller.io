@@ -3,9 +3,12 @@ const deviceStatus = document.getElementById("deviceStatus");
 
 function startButtonInteract()
 {
-    //location.href = "interact.html";
+    fetch("http://172.20.10.14/on");
 
     deviceStatus.textContent = "Device connected";
 }
 
 interactButton.addEventListener("click", startButtonInteract);
+
+
+//location.href = "interact.html";

@@ -1,8 +1,11 @@
-const loginButton = document.getElementById("loginButton");
+const interactButton = document.getElementById("interactButton");
+const deviceStatus = document.getElementById("deviceStatus");
 
-function openLoginPage()
+function openInteractPage()
 {
-    location.href = "login.html";
+    //location.href = "interact.html";
+
+    deviceStatus.textContent = "Device connected";
 }
 
-loginButton.addEventListener("click", openLoginPage);
+//interactButton.addEventListener("click", openInteractPage);

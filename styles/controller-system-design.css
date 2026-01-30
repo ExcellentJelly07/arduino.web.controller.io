@@ -83,7 +83,7 @@ input {
   padding: 2%;
 }
 
-.voteBox {
+.controllerBox {
   width: 300px;
   height: 200px;
   border-radius: 25px;
@@ -95,7 +95,7 @@ input {
   animation:animateRight 0.4s;
 }
 
-.loginBox {
+.eventBox {
   width: 300px;
   height: 280px;
   border-radius: 25px;

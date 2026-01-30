@@ -1,1 +1,1 @@
-https://voting-system313.netlify.app/home.html
+https://arduinowebcontroller.netlify.app/home.html

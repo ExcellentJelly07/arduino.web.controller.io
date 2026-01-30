@@ -1,4 +1,4 @@
-const interactButton = document.getElementById("interactButton");
+const connectButton = document.getElementById("connectButton");
 const deviceStatus = document.getElementById("deviceStatus");
 
 function startButtonInteract()
@@ -8,7 +8,7 @@ function startButtonInteract()
     deviceStatus.textContent = "Device connected";
 }
 
-interactButton.addEventListener("click", startButtonInteract);
+connectButton.addEventListener("click", startButtonInteract);
 
 
 //location.href = "interact.html";

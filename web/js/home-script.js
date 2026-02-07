@@ -3,8 +3,8 @@ const deviceStatus = document.getElementById("deviceStatus");
 
 function startButtonInteract()
 {
-    fetch("http://172.20.10.14/on");
-
+    fetch("/.netlify/functions/publish");
+    
     deviceStatus.textContent = "Device connected";
 }
 

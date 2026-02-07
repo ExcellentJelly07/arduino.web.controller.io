@@ -59,33 +59,43 @@ button:active {
 
 /* Card */
 .contentBox {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
+  width: min(360px, 100%);
   padding: 18px;
   margin-top: 24px;
 
   border-radius: 22px;
   background-color: #1C1C1E;
 
-  /* ✅ this is the key: nice on PC + phone */
-  width: min(360px, 100%);
+  /* better layout */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  text-align: left;
 }
 
-/* Make text inside card look balanced */
+/* Make the title not huge inside the card */
 .contentBox h2 {
-  margin-bottom: 4px;
+  font-size: 32px;     /* card title size */
+  line-height: 1.15;
 }
 
+/* Status text more “UI-ish” */
 .contentBox h3 {
-  opacity: 0.9;
+  font-size: 16px;
+  opacity: 0.85;
 }
 
-/* ✅ only the button inside the card becomes full width */
-.contentBox button {
-  width: 100%;
+/* Button row: keep it tight */
+.contentBox .actions {
   margin-top: 6px;
+}
+
+/* Button: normal sized, not a giant footer bar */
+.contentBox button {
+  width: auto;          /* <-- stops full-width stretch */
+  padding: 10px 18px;
+  min-height: 40px;
 }
 
 /* h5 {

@@ -67,7 +67,7 @@ button:active {
 
   /* 2️⃣ Make the card bigger on phone */
   .contentBox {
-    /* width: 80%; */
+    width: auto;
     /* max-width: 420px;   bigger than desktop card */
     margin-left: auto;
     margin-right: auto;

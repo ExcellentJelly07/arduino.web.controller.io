@@ -50,7 +50,7 @@ button:active {
 .contentBox {
   display: inline-block;
   padding: 16px 18px;
-  margin: 25px;
+  margin-top: 25px;
   border-radius: 25px;
   background-color: #1C1C1E;
   color: white;

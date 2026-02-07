@@ -69,8 +69,8 @@ button:active {
   .contentBox {
     /* width: 80%; */
     /* max-width: 420px;   bigger than desktop card */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }

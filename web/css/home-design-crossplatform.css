@@ -65,7 +65,7 @@ button:active {
            env(safe-area-inset-bottom)
            env(safe-area-inset-left);
 
-    padding: 18px;
+    padding: 28px;
   }
 
   /* 1️⃣ Fix huge title on phone */

@@ -57,6 +57,24 @@ button:active {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+
+  /* 1️⃣ Fix huge title on phone */
+  h1 {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+
+  /* 2️⃣ Make the card bigger on phone */
+  .contentBox {
+    width: 100%;
+    max-width: 420px;   /* bigger than desktop card */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
 /* h5 {
   font-size: 20px;
   font-weight: 400;
